@@ -1,0 +1,155 @@
+2025-11-04 11:59:44.938175: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2025-11-04 11:59:44.938241: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2025-11-04 11:59:47.084100: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2025-11-04 11:59:47.084144: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2025-11-04 11:59:47.084177: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (img-bank): /proc/driver/nvidia/version does not exist
+2025-11-04 11:59:47.084471: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-11-04 11:59:47.280879: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 11:59:47.590616: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 11:59:47.732898: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 11:59:49.558661: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+ * Serving Flask app 'server'
+ * Debug mode: on
+Address already in use
+Port 5001 is in use by another program. Either identify and stop that program, or start the server with a different port.
+2025-11-04 12:01:00.427373: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2025-11-04 12:01:00.427412: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2025-11-04 12:01:02.403637: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2025-11-04 12:01:02.403679: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2025-11-04 12:01:02.403707: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (img-bank): /proc/driver/nvidia/version does not exist
+2025-11-04 12:01:02.403974: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-11-04 12:01:02.597273: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 12:01:02.871979: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 12:01:03.019636: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 12:01:04.867179: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+ * Serving Flask app 'server'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://192.168.1.181:5001
+Press CTRL+C to quit
+ * Restarting with stat
+2025-11-04 12:01:07.611822: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2025-11-04 12:01:07.611858: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2025-11-04 12:01:09.148662: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2025-11-04 12:01:09.148696: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2025-11-04 12:01:09.148725: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (img-bank): /proc/driver/nvidia/version does not exist
+2025-11-04 12:01:09.148938: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-11-04 12:01:09.347723: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 12:01:09.625874: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 12:01:09.729264: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 12:01:11.332280: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+ * Debugger is active!
+ * Debugger PIN: 485-870-297
+192.168.11.78 - - [04/Nov/2025 12:01:14] "GET / HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:14] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:18] "GET / HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:18] "GET /static/logo2.png HTTP/1.1" 304 -
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 407ms/step
+192.168.11.78 - - [04/Nov/2025 12:01:29] "POST / HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/logo2.png HTTP/1.1" 304 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/uploaded/2025-11-04T12.01.27.490189_25021108.jpeg HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/25021702.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/25021104.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/25021703.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93350764.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/94249825_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93350938.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93350784.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93490623.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93350857_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93350796_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93351117.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93350858.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/25012409.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/94648510.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93350852_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/94636962_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/94687051_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93351022_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/94336232_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93350987.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93351026_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93673736.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93350780.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/25012401.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93438535.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/94336199_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93350857.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93350987_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/25012403.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93350852.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/93490623_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/94648510_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:29] "GET /static/Images/25012407.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/93350796.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/94342968.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/93351022.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/94370660_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/25012405.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/94636962.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/94336199.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/94331825.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/94342968_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/25021110.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/94420973.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/94331825_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/93351046.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:30] "GET /static/Images/93351026.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/93673736_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/93351117_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94331902.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94321316_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94648043_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94339937_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94340458_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94704988_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94311407_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/93351016.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94340458.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/93050938.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/93350858_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/93351016_R.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94340173_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/93772800.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94343525_R.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94420947_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94648043.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/93350802.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94648044_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94331902_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:31] "GET /static/Images/94648044.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94736260_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94342933.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94249795_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94339946_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94569152.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94343443.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94299081_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/93350850_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/93350768_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94249795.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94686067_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94339946.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94309529_R.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94420970_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/25012406.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/93050935.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94420970.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/93350849_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/94343409.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/93350849.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/25021001.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:32] "GET /static/Images/25021105.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:33] "GET /static/Images/94686012_R.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:01:33] "GET /static/Images/93050936.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:33] "GET /static/Images/94742842_R.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:33] "GET /static/Images/93350850.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:33] "GET /static/Images/25021108.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:34] "GET /static/Images/25021109.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:34] "GET /static/Images/25021107.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:01:34] "GET /static/Images/25021701.jpg HTTP/1.1" 404 -
+192.168.11.78 - - [04/Nov/2025 12:06:06] "GET / HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:06:06] "GET /static/logo2.png HTTP/1.1" 304 -

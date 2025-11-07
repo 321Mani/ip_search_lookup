@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<style>
+.nagarjun {
+  position: relative;
+       background-image: linear-gradient(white, black);
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 90%;
+    left: 55%;
+    width: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nagarjun:hover .image {
+  opacity: 0.4;
+}
+
+.nagarjun:hover .middle {
+  opacity: 1;
+}
+
+.text {
+
+  color: white;
+  font-size: 10px;
+  padding: 2px 0px;
+  float: left;
+  cursor:pointer;
+}
+
+
+.file-upload{    display: block;
+    width: 50%;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;}
+.file-upload .file-select{display:block;border: 2px solid #dce4ec;color: #34495e;cursor:pointer;height:40px;line-height:40px;text-align:left;background:#FFFFFF;overflow:hidden;position:relative;}
+.file-upload .file-select .file-select-button{background:#dce4ec;padding:0 10px;display:inline-block;height:40px;line-height:40px;}
+.file-upload .file-select .file-select-name{line-height:40px;display:inline-block;padding:0 10px;}
+.file-upload .file-select:hover{border-color:#34495e;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload .file-select:hover .file-select-button{background:#34495e;color:#FFFFFF;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload.active .file-select{border-color:#3fa46a;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload.active .file-select .file-select-button{background:#3fa46a;color:#FFFFFF;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload .file-select input[type=file]{z-index:100;cursor:pointer;position:absolute;height:100%;width:100%;top:0;left:0;opacity:0;filter:alpha(opacity=0);}
+.file-upload .file-select.file-select-disabled{opacity:0.65;}
+.file-upload .file-select.file-select-disabled:hover{cursor:default;display:block;border: 2px solid #dce4ec;color: #34495e;cursor:pointer;height:40px;line-height:40px;margin-top:5px;text-align:left;background:#FFFFFF;overflow:hidden;position:relative;}
+.file-upload .file-select.file-select-disabled:hover .file-select-button{background:#dce4ec;color:#666666;padding:0 10px;display:inline-block;height:40px;line-height:40px;}
+.file-upload .file-select.file-select-disabled:hover .file-select-name{line-height:40px;display:inline-block;padding:0 10px;} 
+
+</style>
+
+
+<script type="text/javascript">
+    
+// $('#chooseFile').bind('change', function () {
+//   var filename = $("#chooseFile").val();
+//   if (/^\s*$/.test(filename)) {
+//     $(".file-upload").removeClass('active');
+//     $("#noFile").text("No file chosen..."); 
+//   }
+//   else {
+//     $(".file-upload").addClass('active');
+//     $("#noFile").text("1 file Chosen"); 
+//   }
+// });
+
+function copy(that){
+	alert("Partner ID Copied !");
+var inp =document.createElement('input');
+document.body.appendChild(inp)
+inp.value =that.textContent
+inp.select();
+document.execCommand('copy',false);
+inp.remove();
+}
+
+</script>
+    </head>
+    <body>
+        <div class="container" style="width: 100%;background: #F4F4F4">
+             <img src="static/logo2.png" class="" style="    width: 250px;
+    margin: 15px 0px;
+    display: block;
+    margin-left: auto;
+    background: black;
+    border-radius: 25px;
+    padding: 15px;
+    margin-right: auto;">
+<p STYLE="     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    FONT-WEIGHT: BOLD;
+    TEXT-ALIGN: CENTER;
+    FONT-SIZE: 21PX;
+    FONT-STYLE: inherit;
+    FONT-FAMILY: emoji;">TARGET IMAGE REPOSITORY</p>
+            <form method="POST" enctype="multipart/form-data">
+              
+              <input type="file" name="query_img" id="chooseFile">
+
+
+
+<!-- <div class="file-upload">
+  <div class="file-select">
+  
+    <div class="file-select-name" id="noFile">No file chosen...</div> 
+    <input type="file" name="query_img" id="chooseFile">
+  <div class="file-select-button" id="fileName">Choose File</div>
+</div>  </div> -->
+
+
+         <button type="submit" style="margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    padding: 3px 38px;
+    background: white;
+    border-radius: 4px;">Search</button>
+
+            </form>
+
+            <div style="">
+            <h4>Reference Image:</h4>
+            {% if query_path %}
+           
+            <img src="{{ query_path }}" width="200px" >
+            {% endif %}
+            <h4>Results:</h4>
+            {% for score in scores %}
+         
+            <figure style="float: left; margin-right:10px; margin-bottom: 10px;">
+                    <div class="nagarjun">
+                <img src="{{ score[1] }}" height="200px"  class="image">
+            <!--     <figcaption>{{ score[1] }}</figcaption> -->
+                <div class="middle">
+
+    <div class="text" onclick="copy(this)">{{ score[2] }}</div>
+<!-- <a href=""  type="button" class="btn btn-outline-info btn-icon-text"> <img src="static/downloadicon.png" class="download-logo" style="    width: 20px;
+    height: 20px;
+    float: right;    margin-right: 13%;
+    float: right;cursor: pointer;"></a> -->
+
+  </div> </div>
+
+            </figure>
+
+           {% endfor %}
+
+
+        </div>
+    
+        </div>
+    </body>
+</html>
+
+

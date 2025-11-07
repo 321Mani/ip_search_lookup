@@ -1,0 +1,357 @@
+nohup: ignoring input
+2025-11-04 12:09:11.990664: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2025-11-04 12:09:11.990696: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2025-11-04 12:09:14.356819: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2025-11-04 12:09:14.356854: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2025-11-04 12:09:14.356891: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (img-bank): /proc/driver/nvidia/version does not exist
+2025-11-04 12:09:14.357970: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-11-04 12:09:14.550328: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 12:09:14.835318: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 12:09:14.976336: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 12:09:15.149730: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 67108864 exceeds 10% of free system memory.
+2025-11-04 12:09:15.208437: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 67108864 exceeds 10% of free system memory.
+ * Serving Flask app 'server'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://192.168.1.181:5001
+Press CTRL+C to quit
+ * Restarting with stat
+2025-11-04 12:09:21.218056: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2025-11-04 12:09:21.218089: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2025-11-04 12:09:23.546215: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2025-11-04 12:09:23.546248: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2025-11-04 12:09:23.546281: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (img-bank): /proc/driver/nvidia/version does not exist
+2025-11-04 12:09:23.546819: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-11-04 12:09:23.739336: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 12:09:24.040724: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 12:09:28.122489: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 411041792 exceeds 10% of free system memory.
+2025-11-04 12:09:31.156567: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 67108864 exceeds 10% of free system memory.
+2025-11-04 12:09:31.213170: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 67108864 exceeds 10% of free system memory.
+ * Debugger is active!
+ * Debugger PIN: 804-248-925
+192.168.11.78 - - [04/Nov/2025 12:09:39] "GET / HTTP/1.1" 200 -
+192.168.11.78 - - [04/Nov/2025 12:09:39] "GET /static/logo2.png HTTP/1.1" 304 -
+192.168.11.78 - - [04/Nov/2025 12:09:39] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.11.126 - - [04/Nov/2025 13:02:19] "GET / HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:19] "GET /static/logo2.png HTTP/1.1" 304 -
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 665ms/step
+192.168.11.126 - - [04/Nov/2025 13:02:45] "POST / HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:45] "GET /static/logo2.png HTTP/1.1" 304 -
+192.168.11.126 - - [04/Nov/2025 13:02:45] "GET /static/Images/92249217.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:45] "GET /static/Images/92390515.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:45] "GET /static/Images/92249250.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:45] "GET /static/Images/90784487.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:45] "GET /static/Images/90459632.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:45] "GET /static/Images/92949574.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:46] "GET /static/Images/92249235.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:46] "GET /static/Images/90459609.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:46] "GET /static/Images/90493545.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:46] "GET /static/Images/91051973.jpg HTTP/1.1" 404 -
+192.168.11.126 - - [04/Nov/2025 13:02:46] "GET /static/Images/91617002.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:46] "GET /static/Images/90043523.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:46] "GET /static/Images/93350846.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:47] "GET /static/Images/94340138.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:47] "GET /static/Images/91616942.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:47] "GET /static/Images/91576052.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:48] "GET /static/Images/93551105.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:48] "GET /static/Images/93582224.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:48] "GET /static/Images/93015087.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:48] "GET /static/Images/92249315.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:48] "GET /static/Images/90459604.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:48] "GET /static/Images/92391902.jpg HTTP/1.1" 404 -
+192.168.11.126 - - [04/Nov/2025 13:02:49] "GET /static/Images/90460256.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:49] "GET /static/Images/92293958.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:49] "GET /static/Images/93772819.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:49] "GET /static/Images/93551273.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:49] "GET /static/Images/92391907.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:50] "GET /static/Images/93179212.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:50] "GET /static/Images/92391931.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:50] "GET /static/Images/92390516.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:50] "GET /static/Images/93579969.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:51] "GET /static/Images/90460266.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:51] "GET /static/Images/93269491.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:51] "GET /static/Images/92391933.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:51] "GET /static/Images/13648281.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:51] "GET /static/Images/90296593.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:51] "GET /static/Images/93668090.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:52] "GET /static/Images/90784502.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:52] "GET /static/Images/89280717.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:52] "GET /static/Images/90986389.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:52] "GET /static/Images/91652570.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:52] "GET /static/Images/93013336.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:52] "GET /static/Images/93010530.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:53] "GET /static/Images/93269510.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:53] "GET /static/Images/93249240.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:53] "GET /static/Images/91576080.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:53] "GET /static/Images/91576123.jpg HTTP/1.1" 404 -
+192.168.11.126 - - [04/Nov/2025 13:02:54] "GET /static/Images/89972801.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:54] "GET /static/Images/92383082.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:54] "GET /static/Images/92938650.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:54] "GET /static/Images/94415472_R.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:54] "GET /static/Images/90010032.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:54] "GET /static/Images/92936155.jpg HTTP/1.1" 404 -
+192.168.11.126 - - [04/Nov/2025 13:02:54] "GET /static/Images/90493537.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:54] "GET /static/Images/94269142.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:55] "GET /static/Images/93014945.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:55] "GET /static/Images/93179235.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:55] "GET /static/Images/90553381.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:55] "GET /static/Images/93226539.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:56] "GET /static/Images/92249186.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:56] "GET /static/Images/89280770.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:56] "GET /static/Images/54251137.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:56] "GET /static/Images/91576100.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:56] "GET /static/Images/93534594.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:56] "GET /static/Images/90493558.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:57] "GET /static/Images/93566512.jpg HTTP/1.1" 404 -
+192.168.11.126 - - [04/Nov/2025 13:02:57] "GET /static/Images/93788159.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:57] "GET /static/Images/93534601.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:57] "GET /static/Images/93010520.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:57] "GET /static/Images/90493578.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:57] "GET /static/Images/93209539.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:57] "GET /static/Images/93551306.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:58] "GET /static/Images/92949528.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:58] "GET /static/Images/93013334.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:58] "GET /static/Images/91652571.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:58] "GET /static/Images/91575941.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:58] "GET /static/Images/92988603.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:58] "GET /static/Images/91616917.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:59] "GET /static/Images/90460305.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:59] "GET /static/Images/90010783.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:59] "GET /static/Images/90493548.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:59] "GET /static/Images/93145401.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:59] "GET /static/Images/91576062.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:02:59] "GET /static/Images/92033017.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:00] "GET /static/Images/93145377.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:00] "GET /static/Images/92391480.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:01] "GET /static/Images/92382936.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:01] "GET /static/Images/92249166.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:01] "GET /static/Images/93723043.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:01] "GET /static/Images/90036587.jpg HTTP/1.1" 404 -
+192.168.11.126 - - [04/Nov/2025 13:03:01] "GET /static/Images/91576125.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:02] "GET /static/Images/90006219.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:02] "GET /static/Images/91616994.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:02] "GET /static/Images/93339270.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:02] "GET /static/Images/93014936.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:02] "GET /static/Images/93014935.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:02] "GET /static/uploaded/2025-11-04T13.02.44.122378_GUEST_36af9ad7-5289-48e1-bc6e-70499ca8dfcc.jfif HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:03] "GET /static/Images/79643002.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:03] "GET /static/Images/79642979.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:03] "GET /static/Images/79642985.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [04/Nov/2025 13:03:03] "GET /static/Images/93015088.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:24:52] "GET / HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:24:52] "GET /static/logo2.png HTTP/1.1" 304 -
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 301ms/step
+192.168.11.78 - - [05/Nov/2025 03:27:19] "POST / HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:19] "GET /static/logo2.png HTTP/1.1" 304 -
+192.168.11.78 - - [05/Nov/2025 03:27:19] "GET /static/Images/92213740.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:19] "GET /static/Images/86736278.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:19] "GET /static/Images/89182378.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:19] "GET /static/Images/89698784.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:19] "GET /static/Images/86736269.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:19] "GET /static/Images/92213760.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:19] "GET /static/Images/86736268.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:19] "GET /static/Images/83643955.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:19] "GET /static/Images/92213739.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:19] "GET /static/Images/91252425.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:19] "GET /static/Images/91252895.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:19] "GET /static/Images/83644025.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/92213695.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/92213697.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/86736302.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/92213763.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/89182354.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/92213694.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/91256685.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/89698782.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/92213757.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/86715829.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/86736299.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/89182372.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/86736300.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:20] "GET /static/Images/91256671.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/92213751.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/92213693.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/84248506.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/92213736.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/89182376.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/76542998.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/54210475.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/86736273.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/86736289.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/92213701.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/80039059.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/89182370.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/89182373.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:21] "GET /static/Images/92213692.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/89281508.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/91256699.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/86736280.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/89700365.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/86736303.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/86736290.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/89698786.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/86736281.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/92213747.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/89698785.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/89182369.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/81505942.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/89700463.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/91252879.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:22] "GET /static/Images/84148483.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:23] "GET /static/Images/81505935.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:23] "GET /static/Images/91256698.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:23] "GET /static/Images/89700460.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:23] "GET /static/Images/89700461.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:23] "GET /static/Images/89698783.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:23] "GET /static/Images/92249265.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:23] "GET /static/Images/93566476.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:23] "GET /static/Images/92249306.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:24] "GET /static/Images/93566439.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:24] "GET /static/Images/89182366.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:24] "GET /static/Images/89182365.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:24] "GET /static/Images/91252356.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:24] "GET /static/Images/86736275.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:24] "GET /static/Images/91256688.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:24] "GET /static/Images/89182414.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:25] "GET /static/Images/89698787.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:25] "GET /static/Images/89182360.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:25] "GET /static/Images/92213744.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:25] "GET /static/Images/92213737.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:25] "GET /static/Images/53272273.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:25] "GET /static/Images/89182363.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:25] "GET /static/Images/91256707.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:25] "GET /static/Images/93058905.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:25] "GET /static/Images/92249227.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:25] "GET /static/Images/91252408.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:25] "GET /static/Images/92213754.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:26] "GET /static/Images/89739014.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:26] "GET /static/Images/86736261.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:26] "GET /static/Images/94174476.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:26] "GET /static/Images/89700367.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:26] "GET /static/Images/89698781.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:26] "GET /static/Images/84148478.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:26] "GET /static/Images/93285246.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:27] "GET /static/Images/92165970.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:27] "GET /static/Images/91256677.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:27] "GET /static/Images/89182367.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:27] "GET /static/Images/91252892.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:27] "GET /static/Images/92213755.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:27] "GET /static/Images/92213743.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:27] "GET /static/Images/89281506.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:27] "GET /static/Images/93087102.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:28] "GET /static/uploaded/2025-11-05T03.27.17.525661_84159072.png HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:28] "GET /static/Images/84159072.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:28] "GET /static/Images/86736276.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:28] "GET /static/Images/92213753.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 03:27:28] "GET /static/Images/83643952.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:08] "GET / HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:08] "GET /static/logo2.png HTTP/1.1" 200 -
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 227ms/step
+192.168.11.126 - - [05/Nov/2025 03:28:44] "POST / HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:44] "GET /static/logo2.png HTTP/1.1" 304 -
+192.168.11.126 - - [05/Nov/2025 03:28:44] "GET /static/Images/94071705.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:44] "GET /static/Images/90043500.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:44] "GET /static/Images/90494705.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:44] "GET /static/Images/90494730.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:44] "GET /static/Images/90494696.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:44] "GET /static/Images/90010778.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:45] "GET /static/Images/94071728.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:46] "GET /static/Images/94071694.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:46] "GET /static/Images/94071720.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:46] "GET /static/Images/90046154.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:46] "GET /static/Images/90043494.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:47] "GET /static/Images/94071721.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:47] "GET /static/Images/94071713.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:47] "GET /static/Images/94071715.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:48] "GET /static/Images/90494736.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:48] "GET /static/Images/94071811.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:48] "GET /static/Images/90043499.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:48] "GET /static/Images/90011009.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:49] "GET /static/Images/90494700.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:49] "GET /static/Images/90043501.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:50] "GET /static/Images/94071802.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:50] "GET /static/Images/90494708.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:50] "GET /static/Images/90499604.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:50] "GET /static/Images/94071731.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:51] "GET /static/Images/94071806.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:51] "GET /static/Images/90046269.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:52] "GET /static/Images/94071739.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:52] "GET /static/Images/93057091.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:52] "GET /static/Images/94071712.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:52] "GET /static/Images/90046147.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:53] "GET /static/Images/90046152.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:53] "GET /static/Images/94071896.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:53] "GET /static/Images/94071710.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:53] "GET /static/Images/90494665.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:54] "GET /static/Images/94071697.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:54] "GET /static/Images/90494733.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:54] "GET /static/Images/90046267.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:54] "GET /static/Images/90043513.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:55] "GET /static/Images/90494710.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:56] "GET /static/Images/93231057.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:56] "GET /static/Images/94370510.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:56] "GET /static/Images/90046274.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:56] "GET /static/Images/94071678.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:57] "GET /static/Images/90046271.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:57] "GET /static/Images/90010721.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:57] "GET /static/Images/94071698.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:57] "GET /static/Images/94071708.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:57] "GET /static/Images/90010720.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:57] "GET /static/Images/90494699.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:58] "GET /static/Images/90046151.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:58] "GET /static/Images/93566441.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:28:59] "GET /static/Images/90010722.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:00] "GET /static/Images/90494673.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:00] "GET /static/Images/90043498.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:00] "GET /static/Images/90494737.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:00] "GET /static/Images/90043510.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:00] "GET /static/Images/94071690.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:01] "GET /static/Images/94071814.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:01] "GET /static/Images/94071922.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:01] "GET /static/Images/94071810.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:02] "GET /static/Images/94071704.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:02] "GET /static/Images/94071724.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:03] "GET /static/Images/90043502.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:03] "GET /static/Images/94071696.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:03] "GET /static/Images/90494668.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:03] "GET /static/Images/94071714.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:04] "GET /static/Images/94071703.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:04] "GET /static/Images/94071923.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:04] "GET /static/Images/90010908.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:05] "GET /static/Images/90494694.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:05] "GET /static/Images/93010516.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:05] "GET /static/Images/94071707.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:05] "GET /static/Images/90494744.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:06] "GET /static/Images/94071689.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:06] "GET /static/Images/94071706.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:06] "GET /static/Images/94071701.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:07] "GET /static/Images/93010529.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:07] "GET /static/Images/53613524.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:07] "GET /static/Images/90011071.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:07] "GET /static/Images/90010997.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:08] "GET /static/Images/94071695.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:08] "GET /static/Images/90010724.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:08] "GET /static/Images/90010911.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:08] "GET /static/Images/90043319.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:08] "GET /static/Images/93058905.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:09] "GET /static/Images/90011070.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:09] "GET /static/Images/89972595.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:09] "GET /static/Images/94071699.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:09] "GET /static/Images/93566508.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:09] "GET /static/Images/94071700.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:09] "GET /static/Images/93566440.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:09] "GET /static/Images/93057093.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:10] "GET /static/Images/93668104.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:10] "GET /static/Images/90010909.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:10] "GET /static/Images/90010910.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:10] "GET /static/Images/90010906.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:11] "GET /static/uploaded/2025-11-05T03.28.43.598278_GUEST_fa65d317-56fc-4378-a78d-5ada94047323.jfif HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:12] "GET /static/Images/81070793.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:12] "GET /static/Images/90043497.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:13] "GET /static/Images/90043512.jpg HTTP/1.1" 200 -
+192.168.11.126 - - [05/Nov/2025 03:29:13] "GET /static/Images/90043509.jpg HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 07:45:18] "GET / HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 07:45:18] "GET /static/logo2.png HTTP/1.1" 200 -
+192.168.11.78 - - [05/Nov/2025 07:45:18] "GET /favicon.ico HTTP/1.1" 404 -

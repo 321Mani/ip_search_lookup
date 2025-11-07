@@ -1,0 +1,13 @@
+[Unit]
+Description=To start Repository Service
+
+[Service]
+Type=simple
+User=zealous
+Group=zealous
+ExecStart=/usr/local/bin/python3 /var/www/html/repo/server.py 
+Restart=always
+PIDFile=/tmp/reposerver.pid
+
+[Install]
+WantedBy=multi-user.target
